@@ -1,5 +1,14 @@
 # twitter-api changelog
 
+## 0.7.7
+* Add `org.clojure/data.codec` dependency and implement app-only authentication with tests
+* Handle rate-limit error responses
+* Update:
+  - `org.clojure/clojure` 1.4.0 -> 1.6.0
+  - `org.clojure/data.json` 0.2.1 -> 0.2.5
+  - `clj-oauth` 1.4.0 -> 1.5.1
+* Add `site-stream` streaming method
+
 ## 0.7.6
 * Update `http.async.client` dependency to fix problem with uploading
 * Add `lists/ownerships` restful method
