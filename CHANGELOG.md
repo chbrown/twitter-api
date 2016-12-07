@@ -1,5 +1,16 @@
 # twitter-api changelog
 
+## 0.7.9
+* Fix user-stream-api version
+* Update:
+  - `org.clojure/clojure` 1.6.0 -> 1.8.0
+  - `org.clojure/data.json` 0.2.5 -> 0.2.6
+  - `clj-oauth` 1.5.1 -> 1.5.5
+* Add `statuses/lookup` restful method
+
+## 0.7.8
+* Bump version
+
 ## 0.7.7
 * Add `org.clojure/data.codec` dependency and implement app-only authentication with tests
 * Handle rate-limit error responses
