@@ -6,7 +6,8 @@
 app.consumer.key=
 app.consumer.secret=
 
-# this user must be authed on the above app
+# this user must be authed (including direct message access) on the above app
+# and have at least one public tweet
 user.screen.name=
 user.access.token=
 user.access.token.secret=
