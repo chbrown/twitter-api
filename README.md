@@ -20,7 +20,7 @@ This is an up-to-date twitter API wrapper that is based on the clojure http.asyn
 Just add the following to your project.clj file in the _dependencies_ section:
 
 ```
-[twitter-api "0.7.8"]
+[chbrown/twitter-api "0.7.9"]
 ```
 
 ## Usage
@@ -114,9 +114,9 @@ All of the API calls will return the full HTTP response of the request, includin
 ((:cancel (meta *response*)))
 
 ; supply a callback that only prints the text of the status
-(def ^:dynamic 
-     *custom-streaming-callback* 
-     (AsyncStreamingCallback. (comp println #(:text %) json/read-json #(str %2)) 
+(def ^:dynamic
+     *custom-streaming-callback*
+     (AsyncStreamingCallback. (comp println #(:text %) json/read-json #(str %2))
      		 	      (comp println response-return-everything)
 			      exception-print))
 
@@ -141,7 +141,7 @@ Unlike other API's, the parameters for each call are not hard-coded into their C
 Simply use leiningen to build the library into a jar with:
 
 ```
-$ git clone git://github.com/adamwynne/twitter-api.git
+$ git clone git://github.com/chbrown/twitter-api.git
 Cloning into twitter-api...
 remote: Counting objects: 167, done.
 remote: Compressing objects: 100% (115/115), done.
