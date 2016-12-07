@@ -3,9 +3,11 @@ pom.xml
 aw.config
 empty.config
 test.config
-.lein-failures
 /lib/
 /classes/
 /target/
 .lein-deps-sum
+.lein-failures
 .lein-plugins
+.lein-repl-history
+.nrepl-port
