@@ -1,4 +1,4 @@
-(defproject chbrown/twitter-api "0.7.9"
+(defproject chbrown/twitter-api "0.7.10"
   :description "Async interface to Twitter's REST and Streaming APIs"
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/data.json "0.2.6"]
